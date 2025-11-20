@@ -1,4 +1,5 @@
-# Spec Allocation Simulator — README
+# Spec Allocation Simulator 
+Project link: https://spec-allocation-simulator.streamlit.app/
 
 This repository contains a simulator for GPA-based allocation of students into engineering specialisations at UoA. It includes:
 
@@ -61,7 +62,7 @@ This flow is intentionally simple: generate or upload students, run the allocati
 
 If you prefer to test on your own data, use the included `sample_students.csv` file as an upload to the app.
 
-## Run and test (developer)
+## Run and test (if you wish to use this project in developer mode)
 
 Install dependencies and run the app locally. A `requirements.txt` file is included so you can install the exact dependencies used here:
 
