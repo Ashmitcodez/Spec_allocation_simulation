@@ -61,12 +61,12 @@ This flow is intentionally simple: generate or upload students, run the allocati
 
 If you prefer to test on your own data, use the included `sample_students.csv` file as an upload to the app.
 
-## Run and test (if you wish to use the app in developer mode)
+## Run and test (developer)
 
-Install the (minimal) dependencies and run the app locally:
+Install dependencies and run the app locally. A `requirements.txt` file is included so you can install the exact dependencies used here:
 
 ```bash
-pip install streamlit pandas pytest
+pip install -r requirements.txt
 streamlit run app.py
 ```
 
@@ -75,4 +75,6 @@ Then, to run the unit tests:
 ```bash
 pytest -q
 ```
+
+Note: `watchdog` is recommended for faster Streamlit auto-reload but is optional (listed in `requirements.txt` as a commented suggestion).
 
